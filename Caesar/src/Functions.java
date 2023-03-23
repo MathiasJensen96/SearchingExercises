@@ -142,7 +142,7 @@ public class Functions {
                 for (int i = 0; i < s.length(); i++) {
                     if (s.charAt(i) == '.') {
                         newText = newText + ".";
-                    } else if (s.charAt(i) == '!') {
+                    } else if (s.charAt(i) == '!') {        //TODO: How to make this better? Switch case?
                         newText = newText + "!";
                     } else if (s.charAt(i) == ',') {
                         newText = newText + ",";
